@@ -56,3 +56,18 @@ opacity: 1;
 #feedback button:hover {
 opacity: 1;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Align precisely */
+    width: 5%; /* Adjust button size */
+}
+
+.carousel-control-prev {
+    left: 10px; /* Adjust left position */
+}
+
+.carousel-control-next {
+    right: 10px; /* Adjust right position */
+}
